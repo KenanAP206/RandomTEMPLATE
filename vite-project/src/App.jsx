@@ -12,7 +12,7 @@ function App() {
         <Route path='/' element={<UserRoot />}>
           <Route index element={<Home />} />
           <Route path=':id' element={<Details />} />
-          <Route path='*' element={<NotFound />} />
+          <Route path='/*' element={<NotFound />} />
         </Route>
       </Routes>
     </>

@@ -1,9 +1,9 @@
 import React from 'react'
-import Products from '../../../Components/User/Products'
+
 function index() {
   return (
     <div>
-      <Products/>
+      
     </div>
   )
 }
